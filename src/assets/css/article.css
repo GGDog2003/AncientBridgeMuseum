@@ -1,0 +1,37 @@
+.headCenter{
+    position: relative;
+    left: 50%;
+
+}
+.imgCenter{
+    position: relative;
+    left: 50%;
+    width: 600px;
+    transform: translate(-50%,0%);
+    border-radius: 20px;
+}
+.objCenter{
+    position: relative;
+    left: 50%;
+    /*width: 900px;*/
+    transform: translate(-50%,0%);
+    border-radius: 20px;
+}
+.timeCenter{
+    position: relative;
+    left: 50%;
+    margin-left: -6%;
+}
+.paraCenter{
+    position: relative;
+    left: 5%;
+
+}
+.articleDiv{
+    border: 3px dashed #d1d0d0;
+    background-color: #f8f5e9;
+    border-radius: 20px;
+
+    position: relative;
+
+}

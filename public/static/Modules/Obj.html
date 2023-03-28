@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vue-3D-Model</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-3d-model/dist/vue-3d-model.umd.js"></script>
+<!--    https://unpkg.com/vue-3d-model/dist/vue-3d-model.umd.js-->
+</head>
+<body>
+
+<div id="obj" style="position:absolute;height: 600px;width: 900px">
+<!--  <model-obj src="./Body.obj"></model-obj>-->
+    <model-stl src="./DongKangShangQiao.stl"></model-stl>
+
+</div>
+</body>
+</html>
+
+<script>
+
+  new Vue({ el: '#obj' });
+</script>
